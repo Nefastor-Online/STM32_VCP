@@ -133,7 +133,6 @@ extern USBD_CDC_ItfTypeDef USBD_Interface_fops_FS;
 uint8_t CDC_Transmit_FS(uint8_t* Buf, uint16_t Len);
 
 /* USER CODE BEGIN EXPORTED_FUNCTIONS */
-int vcp_ready ();
 void vcp_init ();
 int vcp_send (uint8_t* buf, uint16_t len);
 int vcp_recv (uint8_t* buf, uint16_t len);
